@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Body from "../../components/Body";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
+    <section>
       <Navbar />
       <Body />
-    </main>
+      <Footer />
+    </section>
   );
 }
