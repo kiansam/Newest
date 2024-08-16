@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Body from "../../components/Body";
+import Navbar from "../../components/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="font-bold text-2xl">Kian Samadani</h1>
+    <main className="flex flex-col items-center justify-between">
+      <Navbar />
+      <Body />
     </main>
   );
 }
