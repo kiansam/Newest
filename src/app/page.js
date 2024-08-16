@@ -8,7 +8,7 @@ export default function Home() {
     <section className="m-0 p-0">
       <Navbar />
       <Body />
-      <Footer />
+      <Footer /> 
     </section>
   );
 }
