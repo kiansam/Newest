@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 h-full bg-white body-font mt-0">
+    <footer className="text-gray-600 w-full body-font mb-0 items-center h-20 align-middle">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10"></div>
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
@@ -22,7 +22,7 @@ const Footer = () => {
               target="_blank"
             ></Link>
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start space-x-4">
+          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start space-x-4 md:space-x-6">
             <Link
               href="https://x.com/KianSmdn"
               className="ml-3 text-gray-500 hover:text-black"

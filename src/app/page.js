@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
-    <section className="m-0 p-0">
+    <section className="m-0 p-0 ">
       <Navbar />
       <Body />
       <Footer /> 
