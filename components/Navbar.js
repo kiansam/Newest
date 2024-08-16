@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
 
       {/* Right */}
-      <div className="flex items-center sm:space-x-2 justify-end sm:text-sm align-middle mr-2">
+      <div className="flex items-center sm:space-x-2 justify-end sm:text-sm align-middle mr-2 sm:mr-4">
         <div className="flex items-center lg:mr-12 space-x-4">
           <Link href="/about">
             <button className="btn flex items-center cursor-pointer md:px-2 lg:px-6 sm:h-14 md:hover:bg-gray-100 rounded-xl active:border-b-2 active:border-blue-500 group">
