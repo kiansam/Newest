@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link href="/">
           <div className="flex items-center align-middle">
             <div className="flex ml-2 items-center rounded-full font-black">
-              <h1 className="text-2xl text-blue-600">KS.</h1>
+              <h1 className="text-2xl text-black font-serif font-black">KS.</h1>
             </div>
           </div>
         </Link>
@@ -23,21 +23,21 @@ const Navbar = () => {
           <div className="flex items-center lg:mr-12 space-x-4">
             <Link href="/about">
               <button className="btn px-1 flex items-center cursor-pointer md:px-2 align-middle">
-                <h3 className="h-5 text-center text-gray-600 mx-auto hover:text-blue-500 ">
+                <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black ">
                   About
                 </h3>
               </button>
             </Link>
             <Link href="/contact">
               <button className="btn px-1 flex items-center cursor-pointer md:px-2 align-middle">
-                <h3 className="h-5 text-center text-gray-600 mx-auto hover:text-blue-500">
+                <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black">
                   Contact
                 </h3>
               </button>
             </Link>
             <Link href="/blog">
               <button className="btn px-1 flex items-center cursor-pointer md:px-2 ">
-                <h3 className="h-5 text-center text-gray-600 mx-auto hover:text-blue-500">
+                <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black">
                   Blog
                 </h3>
               </button>
