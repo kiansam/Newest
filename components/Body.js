@@ -7,7 +7,7 @@ const Body = () => {
         {/* <h1 className="justify-center flex text-3xl font-sans font-bold align-middle">
           Kian Samadani
         </h1> */}
-        <h1 className="justify-center flex xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 text-justify text-md md:text-lg lg:text-xl font-serif p-8 sm:p-12 md:p-16 lg:p-20 xl:p-24 border border-gray-50 rounded-xl shadow-md">
+        <h1 className="justify-center flex xl:w-5/12 lg:w-8/12 md:w-10/12 w-11/12 text-justify text-md md:text-lg lg:text-xl font-serif p-6 sm:p-12 md:p-16 lg:p-20 xl:p-24 border border-gray-50 rounded-xl shadow-md">
           "O Ye People that Have Minds to Know and Ears to Hear! The first call
           of the Beloved is this: O mystic nightingale! Abide not but in the
           rose garden of the spirit. O messenger of the Solomon of love! Seek
