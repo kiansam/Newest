@@ -2,12 +2,12 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div className="top-0">
-      <div className="w-full h-640 justify-center text-center align-middle flex pt-32">
+    <div className="top-0 w-full">
+      <div className="w-full justify-center text-center align-middle flex pt-32">
         {/* <h1 className="justify-center flex text-3xl font-sans font-bold align-middle">
           Kian Samadani
         </h1> */}
-        <h1 className="justify-center flex w-1/4 text-justify text-sm md:text-lg lg:text-xl">
+        <h1 className="justify-center flex xl:w-2/5 lg:w-2/4 w-3/5 text-justify text-sm md:text-lg lg:text-xl">
           "O Ye People that Have Minds to Know and Ears to Hear! The first call
           of the Beloved is this: O mystic nightingale! Abide not but in the
           rose garden of the spirit. O messenger of the Solomon of love! Seek

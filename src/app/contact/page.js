@@ -5,10 +5,10 @@ import Footer from "../../../components/Footer";
 
 export default function Contact() {
   return (
-    <section className="m-0 p-0 ">
+    <div className="flex flex-col h-screen justify-between">
       <Navbar />
       <Body />
-      <Footer />
-    </section>
+      <Footer className="" />
+    </div>
   );
 }
