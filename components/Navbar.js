@@ -22,21 +22,21 @@ const Navbar = () => {
         <div className="flex items-center sm:space-x-2 justify-end sm:text-sm align-middle mr-2 sm:mr-4">
           <div className="flex items-center lg:mr-12 space-x-4">
             <Link href="/about">
-              <button className="btn px-1 flex items-center cursor-pointer md:px-2 align-middle">
-                <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black ">
+              <button className=" px-1 flex items-center cursor-pointer md:px-2 align-middle">
+                <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black">
                   About
                 </h3>
               </button>
             </Link>
             <Link href="/contact">
-              <button className="btn px-1 flex items-center cursor-pointer md:px-2 align-middle">
+              <button className=" px-1 flex items-center cursor-pointer md:px-2 align-middle">
                 <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black">
                   Contact
                 </h3>
               </button>
             </Link>
             <Link href="/blog">
-              <button className="btn px-1 flex items-center cursor-pointer md:px-2 ">
+              <button className=" px-1 flex items-center cursor-pointer md:px-2 ">
                 <h3 className="h-5 text-center text-gray-500 mx-auto hover:text-black">
                   Blog
                 </h3>
