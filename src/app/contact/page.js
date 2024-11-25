@@ -7,6 +7,11 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <div className="flex flex-col h-screen justify-between">
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1335079440288698"
+        crossorigin="anonymous"
+      ></script>
       <Navbar />
       <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div>
