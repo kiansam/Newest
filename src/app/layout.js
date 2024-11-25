@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import GoogleAdsense from "../components/GoogleAdsense";
+import GoogleAdsense from "../../components/GoogleAdsense";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
